@@ -1,0 +1,15 @@
+
+# Requirements for the LUS‑AI‑App
+#
+# This project uses Streamlit for the web interface, Hugging Face's
+# transformers for loading pre‑trained vision models, and OpenCV to
+# implement a simple B‑line detector. Additional libraries include
+# Pillow for image handling and NumPy for numerical operations.
+
+streamlit==1.35.0
+transformers==4.42.1
+torch==2.2.1
+Pillow==10.3.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+huggingface-hub==0.23.0
